@@ -1,0 +1,147 @@
+<< At time 16: 
+
+  Current Available Main Memory = 56 
+  Current Devices               = 1
+
+  Completed jobs:   
+----------------
+
+  Job ID   Arrival Time    Finish Time  Turnaround Time  
+
+  =================================================================
+
+    1          3               6               3 
+    2          4               8               4 
+    3          6               9               3 
+    4          8              14               6 
+    7         13              15               2 
+
+  Hold Queue 1:
+
+  ----------------
+
+   8     
+  Hold Queue 2: 
+
+  ----------------
+
+
+
+  Ready Queue: 
+  ----------------
+  JobID    RunTime    TimeAccrued
+  ===============================
+
+
+
+  Process running on the CPU: 
+  ----------------------------
+  Job ID   Run Time   Time Left
+    6          7          7 
+
+
+<< Final state of system: 
+  Current Available Main Memory =100 
+  Current Devices = 1
+
+  Completed jobs:   
+----------------
+
+  Job ID   Arrival Time    Finish Time  Turnaround Time  
+
+  =================================================================
+
+    1          3               6               3 
+    2          4               8               4 
+    3          6               9               3 
+    4          8              14               6 
+    6         12              22              10 
+    7         13              15               2 
+    8         15              26              11 
+    9         18              48              30 
+   10         20              36              16 
+   12         24              39              15 
+   13         25              31               6 
+   14         28              52              24 
+   15         31              55              24 
+
+System Turnaround Time =11.846 
+
+
+****************************************************************************
+
+
+<< At time 9: 
+
+  Current Available Main Memory = 160 
+  Current Devices               = 1
+
+  Completed jobs:   
+----------------
+
+  Job ID   Arrival Time    Finish Time  Turnaround Time  
+
+  =================================================================
+
+    1          2               7               5 
+
+  Hold Queue 1:
+
+  ----------------
+
+
+  Hold Queue 2: 
+
+  ----------------
+
+
+
+  Ready Queue: 
+  ----------------
+  JobID    RunTime    TimeAccrued
+  ===============================
+
+    3          2          0 
+    4          9          0 
+    5          5          0 
+
+
+  Process running on the CPU: 
+  ----------------------------
+  Job ID   Run Time   Time Left
+    2          4          4 
+
+
+<< Final state of system: 
+  Current Available Main Memory =200 
+  Current Devices = 1
+
+  Completed jobs:   
+----------------
+
+  Job ID   Arrival Time    Finish Time  Turnaround Time  
+
+  =================================================================
+
+    1          2               7               5 
+    2          4              11               7 
+    3          5              13               8 
+    4          7              22              15 
+    5          8              27              19 
+    6         10              31              21 
+    7         12              35              23 
+    8         14              36              22 
+    9         15              40              25 
+   10         16              47              31 
+   11         18              50              32 
+   12         20              53              33 
+   13         22              59              37 
+   14         24              62              38 
+   15         27              65              38 
+
+System Turnaround Time =23.600 
+
+
+****************************************************************************
+
+
