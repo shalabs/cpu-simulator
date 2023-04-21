@@ -18,3 +18,9 @@ Assume that all the two Hold Queues are based on priority. There are two externa
 --Job scheduling for Hold Queue 1 is Shortest Job First (SJF). 
 --Job scheduling for Hold Queues 2 is First In First Out (FIFO).
 Process scheduling will be Limited Round Robin. Once a job has exceeded the threshold of CPU time, it is considered a long job and may not run until the Ready Queue is empty. At that time the Long Queue becomes the Ready Queue and Round Robin (with a quantum) process scheduling is used.
+
+
+The input of the program is text. Each line in the file contains one of the commands listed below. Each command consists of a letter in column one followed by a set of parameters.
+
+
+(This was made as a final project for Operating Systems class (CPCS361) in 2017)
